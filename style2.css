@@ -1,0 +1,244 @@
+.header{
+    height: 80vh;
+}
+
+.header .navbar a img {
+    width: 100px;
+}
+
+.header .navbar .button .btn1 {
+    border: 1px solid #ffffff;
+    margin: 0px 5px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.header .navbar .button .btn2 {
+    border: 2px white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: red;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.header .header-content .email {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .header-content .email input {
+    padding: 15px 10px;
+    width: 450px;
+    color: rgba(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 5px;
+    background: transparent;
+    margin: 10px 10px;
+    border: 1px solid rgb(10, 162, 7);
+}
+
+.header .header-content .email button {
+    margin-left: 25px;
+    width: 175px;
+    background: red;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+}
+.section{
+    height: 100vh;
+}
+.footer {
+    margin-bottom: 75px;
+}
+
+
+.footer-input form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-input form input {
+    padding: 15px 10px;
+    width: 165%;
+    border: 2px solid white;
+    color: rgba(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid rgb(10, 162, 7);
+}
+
+.footer .footer-input form .footer-btn {
+    padding: 7px;
+    margin: 75px 0px 5px 0px;
+    width: 175px;
+    height: 57px;
+    background: red;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 18px;
+    border-style: none;
+    cursor: pointer;
+    text-align: center;
+    resize: vertical;
+}
+
+.footer .footer-input .call {
+    margin: 100px 0px 100px 30px;
+}
+
+footer .faq-box {
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 10px;
+    margin-bottom: -50px;
+}
+
+footer .faq-box li {
+    margin: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+    .header .header-content .email input{
+        width: 300px;
+        padding: 15px 10px;
+        color: rgba(255, 255, 255);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        border-radius: 5px;
+        background: transparent;
+        margin: 10px 10px;
+        border: 2px solid rgb(10, 162, 7);
+    }
+
+    .header .header-content h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0px 0px 5px;
+        width: 400px;
+        align-content: center;
+        
+    }
+    
+    .header .header-content h3 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: normal;
+        margin: 0px 0px 12px;
+    }
+    
+    .header .header-content p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 10px 0px;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .header{
+        height: 70vh;
+    }
+
+    .section{
+        height: 70vh;
+    }
+    .header .header-content h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        margin: -40px 0px 5px;
+        width: 350px;
+        align-content: center;
+    }
+
+    .header .header-content p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 10px 0px;
+        width: 250px;
+    }
+
+    .section-question .question-box {
+        margin: 5px 0px 0px 0px;
+        cursor: pointer;
+        width: 75%;
+    }
+    footer {
+        height: 100vh;
+        width: 85vw;
+        margin-top: -100px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .header .navbar {
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header .button{
+        margin-top: 10px;
+    }
+
+    header .header-content h1 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 50px;
+        margin: -75px 0px 5px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .header .header-content .email input{
+        width: 250px;
+        padding: 15px 10px;
+        color: rgba(255, 255, 255);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        border-radius: 5px;
+        background: transparent;
+        margin: 10px 0px;
+        border: 2px solid rgb(10, 162, 7);
+    }
+}
+
+    @media only screen and (max-width: 300px){
+        .section {
+            height: 90vh;
+            background-color: #000000;
+        }
+        .header{
+            height: 100vh;
+        }
+        footer .faq-box {
+            margin-top: 100px;
+            margin-left: 50px;
+        }
+    }
